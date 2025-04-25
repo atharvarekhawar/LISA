@@ -1,8 +1,8 @@
-# LISA - Your AI Co-Founder
+# Lisa - Your AI Co-Founder
 
-Built by Aazar Jan, Shahbaz Magsi and Aazar Jan
+Built by Aazar Jan, Muhammad Hashim and Shahbaz Abdullah Magsi
 
-LISA is an open-source voice assistant designed for founders, operators, and visionaries who move at the speed of life. Built to integrate seamlessly with your existing tools, LISA acts as your co-founder, handling tasks from email drafting to meeting scheduling with simple voice commands. No more app-switching or tab-juggling—just say it, and LISA gets it done.
+Lisa is an open-source voice assistant designed for founders, operators, and visionaries who move at the speed of life. Built to integrate seamlessly with your existing tools, Lisa acts as your co-founder, handling tasks from email drafting to meeting scheduling with simple voice commands. No more app-switching or tab-juggling—just say it, and Lisa gets it done.
 
 ![LISA About](https://beta.ourlisa.com/assets/about-one-Bp8g_-Rs.png)
 
@@ -67,19 +67,19 @@ LISA is an open-source voice assistant designed for founders, operators, and vis
    python main.py
    ```
 
-5. **Access LISA**:
-   LISA runs locally and listens for voice commands. Configure your microphone and test with a simple command like, "LISA, schedule a meeting for tomorrow at 10 AM."
+5. **Access Lisa**:
+   Lisa runs locally and listens for voice commands. Configure your microphone and test with a simple command like, "Lisa, schedule a meeting for tomorrow at 10 AM."
 
 ## Usage
 
 ### Basic Commands
 
-- **Email**: "LISA, draft an email to [contact] about [topic]."
-- **Calendar**: "LISA, schedule a call with [name] next Tuesday at 3 PM."
-- **Notion**: "LISA, add a task to my Notion project for [task]."
-- **Slack**: "LISA, send a message to [channel] about [update]."
-- **GitHub**: "LISA, check the status of my pull requests."
-- **Daily Briefing**: "LISA, what's on my plate today?"
+- **Email**: "Lisa, draft an email to [contact] about [topic]."
+- **Calendar**: "Lisa, schedule a call with [name] next Tuesday at 3 PM."
+- **Notion**: "Lisa, add a task to my Notion project for [task]."
+- **Slack**: "Lisa, send a message to [channel] about [update]."
+- **GitHub**: "Lisa, check the status of my pull requests."
+- **Daily Briefing**: "Lisa, what's on my plate today?"
 
 ### Customization
 
@@ -87,7 +87,7 @@ LISA is an open-source voice assistant designed for founders, operators, and vis
 
 ## License
 
-LISA is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+Lisa is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Community
 
@@ -100,4 +100,4 @@ LISA is licensed under the MIT License. See [LICENSE](LICENSE) for more informat
 - Enhance natural language understanding for complex commands.
 - Introduce web-based UI for configuration and monitoring.
 
-LISA is open source and built for those who execute. Join us in shaping the future of productivity.
+Lisa is open source and built for those who execute. Join us in shaping the future of productivity.
