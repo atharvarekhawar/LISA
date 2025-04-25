@@ -4,6 +4,8 @@ Built by Aazar Jan, Muhammad Hashim and Shahbaz Abdullah Magsi
 
 Lisa is an open-source voice assistant designed for founders, operators, and visionaries who move at the speed of life. Built to integrate seamlessly with your existing tools, Lisa acts as your co-founder, handling tasks from email drafting to meeting scheduling with simple voice commands. No more app-switching or tab-juggling—just say it, and Lisa gets it done.
 
+> Demo available at: https://beta.ourlisa.com
+
 ![LISA About](https://beta.ourlisa.com/assets/about-one-Bp8g_-Rs.png)
 
 ## Features
@@ -61,13 +63,7 @@ Lisa is an open-source voice assistant designed for founders, operators, and vis
    ELEVEN_LABS_API_KEY=your_eleven_labs_api_key
    ```
 
-4. **Run the Application**:
-
-   ```bash
-   python main.py
-   ```
-
-5. **Access Lisa**:
+4. **Access Lisa**:
    Lisa runs locally and listens for voice commands. Configure your microphone and test with a simple command like, "Lisa, schedule a meeting for tomorrow at 10 AM."
 
 ## Usage
