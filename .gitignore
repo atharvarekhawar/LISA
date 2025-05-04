@@ -21,6 +21,8 @@ Thumbs.db
 
 # Logs
 *.log
+error.log
+/server/src/logs/
 
 # Coverage
 coverage/
@@ -32,4 +34,3 @@ coverage/
 /prisma/migrations/
 /prisma/dev.db
 /.prisma/
-

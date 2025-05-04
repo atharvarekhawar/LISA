@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useCallback, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -10,24 +10,30 @@ const GoogleOAuthCallback = () => {
   const baseURL = useSelector((state) => state.baseUrl.url);
   const navigate = useNavigate();
 
-  const getToken = async (oauthCode) => {
-    try {
-      const response = await axios.post(
-        `${baseURL}/v1/auth/google/callback/`,
-        {
-          code: oauthCode,
-        },
-        { withCredentials: true }
-      );
-      if (response.status === 201) {
-        navigate("/settings");
-      } else {
-        navigate("/main");
+  const getToken = useCallback(
+    async (oauthCode) => {
+      console.log("getToken");
+
+      try {
+        const response = await axios.post(
+          `${baseURL}/v1/auth/google/callback/`,
+          {
+            code: oauthCode,
+          },
+          { withCredentials: true }
+        );
+        if (response.status === 201) {
+          navigate("/settings");
+        } else {
+          navigate("/main");
+        }
+        // eslint-disable-next-line no-unused-vars
+      } catch (err) {
+        navigate("/");
       }
-    } catch (err) {
-      navigate("/");
-    }
-  };
+    },
+    [baseURL, navigate]
+  );
 
   useEffect(() => {
     if (code) {
@@ -35,7 +41,7 @@ const GoogleOAuthCallback = () => {
     } else {
       navigate("/");
     }
-  }, [code]);
+  }, [code, getToken, navigate]);
 
   return <h1>Processing GoogleOAuth Callback...</h1>;
 };
